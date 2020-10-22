@@ -1,0 +1,14 @@
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\bin\Debug\netstandard2.0\LearningApplication.deps.json
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\bin\Debug\netstandard2.0\LearningApplication.dll
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\bin\Debug\netstandard2.0\ref\LearningApplication.dll
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\bin\Debug\netstandard2.0\LearningApplication.pdb
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\LearningApplication.csprojAssemblyReference.cache
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\LearningApplication.AssemblyInfoInputs.cache
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\LearningApplication.AssemblyInfo.cs
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\LearningApplication.csproj.CoreCompileInputs.cache
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\XamlC.stamp
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\LearningApplication.dll
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\ref\LearningApplication.dll
+G:\GitHub\LearningApplication\LearningApplication\LearningApplication\obj\Debug\netstandard2.0\LearningApplication.pdb
