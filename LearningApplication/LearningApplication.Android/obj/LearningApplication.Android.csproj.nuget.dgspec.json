@@ -1,34 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.Android/LearningApplication.Android.csproj": {}
+    "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.Android\\LearningApplication.Android.csproj": {}
   },
   "projects": {
-    "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.Android/LearningApplication.Android.csproj": {
+    "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.Android\\LearningApplication.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.Android/LearningApplication.Android.csproj",
+        "projectUniqueName": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.Android\\LearningApplication.Android.csproj",
         "projectName": "LearningApplication.Android",
-        "projectPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.Android/LearningApplication.Android.csproj",
-        "packagesPath": "/Users/mounika.bandaru/.nuget/packages/",
-        "outputPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.Android/obj/",
+        "projectPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.Android\\LearningApplication.Android.csproj",
+        "packagesPath": "C:\\Users\\banda\\.nuget\\packages\\",
+        "outputPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/mounika.bandaru/.config/NuGet/NuGet.Config"
+          "C:\\Users\\banda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj": {
-                "projectPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj"
+              "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj": {
+                "projectPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj"
               }
             }
           }
@@ -49,24 +54,29 @@
         }
       }
     },
-    "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj": {
+    "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj",
+        "projectUniqueName": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj",
         "projectName": "LearningApplication",
-        "projectPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj",
-        "packagesPath": "/Users/mounika.bandaru/.nuget/packages/",
-        "outputPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/obj/",
+        "projectPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj",
+        "packagesPath": "C:\\Users\\banda\\.nuget\\packages\\",
+        "outputPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/mounika.bandaru/.config/NuGet/NuGet.Config"
+          "C:\\Users\\banda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -95,10 +105,6 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.6.0.1141, )"
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.7.335, )"
             }
           },
           "imports": [
@@ -111,7 +117,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
