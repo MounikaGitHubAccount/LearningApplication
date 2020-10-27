@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="LearningApplication.Views.DetailPage" BackgroundColor="Black">
+
+      <Grid BackgroundColor="Black" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--Header-->
+        <Grid Grid.Row="0" ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="backarrow.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand">
+                 <Image.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding BackCommand}"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Grid.Column="1" Text="{Binding DetailsHeader}" TextColor="White" FontSize="25" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+            <Frame Grid.Column="2" HasShadow="False" CornerRadius="33" HeightRequest="25" WidthRequest="25">
+            <Image Source="profile.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand"/>
+            </Frame>
+        </Grid>
+        <!--Title-->
+        <Label  Grid.Row="1" Text="Collect tourism places images in India" TextColor="White" FontSize="20"/>
+        <!--Tabs-->
+        <Grid  Grid.Row="2" Margin="0,20,0,0" ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Text="Notes" TextColor="{Binding NotesTextColor}" FontSize="20">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding NotesCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Grid.Column="1" Text="To-dos" TextColor="{Binding ToDosTextColor}" FontSize="20">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ToDosCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
+        <!--Content-->
+        <Grid Grid.Row="3">
+            <Editor x:Name="editorNotes" BackgroundColor="Black" IsVisible="{Binding IsNotes}" Placeholder="Eg: Red Fort, Delhi" PlaceholderColor="White" Text="{Binding EditorNotes}" TextColor="White" Margin="0,10,0,0"/>
+             <Grid  IsVisible="{Binding IsToDos}" BackgroundColor="Black" Margin="0,10,0,0">
+                 <Grid.RowDefinitions>
+                     <RowDefinition Height="Auto"/>
+                     <RowDefinition Height="*"/>
+                 </Grid.RowDefinitions>
+                  <Frame HasShadow="False" Margin="5" Padding="10,0,0,0" CornerRadius="10" BackgroundColor="#181818" BorderColor="Black">
+                        <Grid>
+                         <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                         </Grid.ColumnDefinitions>
+                         <Image Grid.Column="0" Source="plus.png" WidthRequest="20" HeightRequest="20">
+                               <Image.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding PlusCommand}"/>
+                                </Image.GestureRecognizers>
+                         </Image>
+                                 <Entry x:Name="entryTodo" Grid.Column="1" BackgroundColor="#181818" Keyboard="Chat" Placeholder="Create a new Todo" PlaceholderColor="#404040" Text="{Binding TodoValue}" TextColor="White" FontSize="17" />
+                        </Grid>
+                    </Frame>
+                <ListView BackgroundColor="Black"  Grid.Row="1" x:Name="TodoList" SeparatorVisibility="None" ItemsSource="{Binding TodoData}" Margin="0,20,0,0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid ColumnSpacing="10" VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Source="uncheckradio.png" HeightRequest="20" WidthRequest="20" VerticalOptions="Center" Margin="0,15,0,0"/>
+                                    <Label Grid.Column="1" Text="{Binding Name}" TextColor="White" VerticalOptions="Center" Margin="0,15,0,0"/>
+                                    <Label Grid.Column="2" Text="..." TextColor="#585858" FontSize="35" VerticalOptions="StartAndExpand"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+             </Grid>
+        </Grid>
+         <Grid.Margin>
+             <OnPlatform x:TypeArguments="Thickness" Android="10,10,10,10" iOS="20,20,20,20" />
+         </Grid.Margin>
+    </Grid>
+
+</ContentPage>
