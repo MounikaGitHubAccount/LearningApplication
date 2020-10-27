@@ -1,39 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.iOS\\LearningApplication.iOS.csproj": {}
+    "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.iOS/LearningApplication.iOS.csproj": {}
   },
   "projects": {
-    "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.iOS\\LearningApplication.iOS.csproj": {
+    "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.iOS/LearningApplication.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.iOS\\LearningApplication.iOS.csproj",
+        "projectUniqueName": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.iOS/LearningApplication.iOS.csproj",
         "projectName": "LearningApplication.iOS",
-        "projectPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.iOS\\LearningApplication.iOS.csproj",
-        "packagesPath": "C:\\Users\\banda\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication.iOS\\obj\\",
+        "projectPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.iOS/LearningApplication.iOS.csproj",
+        "packagesPath": "/Users/mounika.bandaru/.nuget/packages/",
+        "outputPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\banda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/mounika.bandaru/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj": {
-                "projectPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj"
+              "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj": {
+                "projectPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj"
               }
             }
           }
@@ -65,29 +60,24 @@
         }
       }
     },
-    "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj": {
+    "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj",
+        "projectUniqueName": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj",
         "projectName": "LearningApplication",
-        "projectPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\LearningApplication.csproj",
-        "packagesPath": "C:\\Users\\banda\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\LearningApplication\\LearningApplication\\LearningApplication\\obj\\",
+        "projectPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/LearningApplication.csproj",
+        "packagesPath": "/Users/mounika.bandaru/.nuget/packages/",
+        "outputPath": "/Users/mounika.bandaru/Documents/GitHub/LearningApplication/LearningApplication/LearningApplication/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\banda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/mounika.bandaru/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -116,6 +106,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.6.0.1141, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [
@@ -128,7 +122,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }
